@@ -1,0 +1,247 @@
+:root{
+    --main-color: #FFFFFF; /*used for background of website */
+    --main-color-dark: #0f0f0f;
+    --navbar-backround-color: #f4f4f4;
+    --navbar-background-color-dark: #000000;
+    --secondary-color: rgb(219, 22, 22); /*used for  buttons, notifications .... */
+    --secondar-color-hover:rgb(233, 25, 25);
+    --secondary-color-2: #f4f4f4;/*used for background of small elements or hover on small elements (Icons , unused buttons) or small sections */
+    --secondary-color-3: #e9e9e9;/*used for border */
+    --secondary-color-3-dark: #2b2b2b;/*used for border */
+    --secondary-color-4: #ebebeb;/*used for section start or end border indicator  */
+    --secondary-color-4-dark: #3f3f3f;/*used for section start or end border indicator  */
+    --secondary-color-5: #1e1e27; /*used forspecial buttons */
+    --main-text-color: #000000;/*used for main header */
+    --main-text-color-dark: #f5f5f5;/*used for main header */
+    --secondary-text-color: #7d7d7d;/*used for not main header (description) */
+    --secondary-text-color-2: #1e1e27;/*used for product card header (description) */
+    --secondary-text-color-2-dark: #7d7d7d;/*used for product card header (description) */
+    --secondary-text-color-2-hover: #757575;/*used for product card header hover (description) */
+    --secondary-text-color-2-hover-dark: #afafaf;/*used for product card header hover (description) */
+    --secondary-text-color-3: #b9b4c7;
+    --secondary-text-color-4: #51545f;
+    --secondary-text-color-4-dark: #959595;
+    --secondary-text-color-5: #0f0f0f;
+    --secondary-text-color-5-dark: #0f0f0f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+/* .contact-header{
+    background: linear-gradient(to right, #bf8e69, #C0B7B1, #FFFFFF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.queries{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+
+}
+.queries p{
+    padding-top: 100px;
+}
+.queries h2 {
+    position: relative; 
+    
+}
+
+.queries h2::after {
+    content: "";
+    width: 100px; 
+    height: 2px;  
+    background-color: var(--secondary-color);
+    display: block;
+    margin: 20px auto 0; 
+    clear: both; 
+}
+form div{
+    margin: 20px;
+}
+input , textarea{
+    width: 80%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid var(--secondary-text-color-4-dark);
+    box-shadow: 2px 2px 2px 2px rgb(210, 179, 179);
+
+}
+  
+.send{
+    padding: 10px;
+    border: none;
+    width: 100px;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-left: 30%;
+}
+
+.send:hover{
+    background-color: var(--secondar-color-hover);
+}
+
+.contact-form{
+    background-color: #eeeff0;
+  
+}
+
+.contact-desc p{
+    color: gray;
+    margin: 10px;
+}
+
+.content p{
+    color: var(--secondary-text-color);
+}
+
+.content{
+    margin: 30px 0;
+}
+
+.content i{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 120px; 
+}
+
+.notification{
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+       align-items: center;
+       position: absolute;
+       top: 2px;
+       right: 3px;
+       padding: 13px;
+   }
+   
+/* Dark mode styles for contact page */
+.website-container.dark {
+    background-color: var(--main-color-dark);
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark .navbar.bg-light {
+    background-color: var(--navbar-background-color-dark) !important;
+}
+
+.website-container.dark .nav-link {
+    color: var(--main-text-color-dark) !important;
+}
+
+.website-container.dark .navbar-brand {
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark .left-nav .fa-moon {
+    color: #ffffff;
+}
+
+.website-container.dark .left-nav .fa-shopping-cart {
+    color: #000000;
+    background-color: rgb(231, 229, 229);
+}
+
+.website-container.dark .queries {
+    background-color: var(--main-color-dark);
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark .queries p {
+    color: var(--secondary-text-color-4-dark);
+}
+
+.website-container.dark .queries h2::after {
+    background-color: var(--secondar-color-hover);
+}
+
+.website-container.dark .contact-form {
+    background-color: var(--secondary-color-4-dark);
+}
+
+.website-container.dark .contact-desc p {
+    color: var(--secondary-text-color-4-dark);
+}
+
+.website-container.dark .contact-desc h2 {
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark input,
+.website-container.dark textarea {
+    background-color: #5a5a5a;
+    color: var(--main-text-color-dark);
+    border: 1px solid var(--secondary-color-4-dark);
+    box-shadow: 2px 2px 2px 2px rgba(63, 63, 63, 0.5);
+}
+
+.website-container.dark input::placeholder,
+.website-container.dark textarea::placeholder {
+    color: #ffffff; 
+    opacity: 0.8; 
+}
+
+.website-container.dark .send {
+    background-color: var(--main-color-dark);
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark .send:hover {
+    background-color: rgb(30, 29, 29);
+}
+
+.website-container.dark .content {
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark .content p {
+    color: var(--secondary-text-color-4-dark);
+}
+
+.website-container.dark .content i {
+    color: var(--secondary-text-color-4-dark);
+}
+
+.website-container.dark .map iframe {
+    filter: grayscale(50%) brightness(80%);
+}
+
+.website-container.dark footer a {
+    color: var(--secondary-text-color-4-dark);
+}
+
+.website-container.dark .social-icons i {
+    color: var(--secondary-text-color-4-dark);
+}
+
+.website-container.dark .foot {
+    background-color: #1a1a1a;
+    color: var(--main-text-color-dark);
+}
+
+.website-container.dark .navbar-toggler{
+    background-color: white;
+}

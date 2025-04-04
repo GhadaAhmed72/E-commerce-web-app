@@ -1,0 +1,662 @@
+{
+  "products": [
+    {
+      "id": "1001",
+      "name": "Fear of God ESSENTIALS Core Logo Jersey T-Shirt",
+      "description": "Presenting sleek, simple streetwear, Fear of God Essentials exudes modern luxury and elevated style. Cut from premium, soft cotton, the core logo jersey t-shirt delivers a minimalist design and relaxed fit, adorned with a contrast, iconic logo screen print across the back and front chest.",
+      "price": 80,
+      "oldPrice": 100,
+      "hasDiscount":true,
+      "hasBadge":true,
+      "badgeContent":"-20%",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_1.webp",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Heather Grey"],
+      "material": "100% Cotton",
+      "rating": 7.5,
+      "popularity": 7.3,
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Great quality and fit!"
+        },
+        {
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Very comfortable, but runs a little large."
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "adidas Stan Smith CS",
+      "description": "The adidas Stan Smith shoes continue to boast timeless design while taking on modern colours and variations. This pair reimagines the classic by flipping the look. The leather upper becomes suede, and the cupsole becomes rubber foxing tape while taking on a range of colours. This rework gives the silhouette a playful and easygoing expression. Lace them up to elevate your style, and let the laid-back vibes kick in.",
+      "price": 99,
+      "oldPrice": 100,
+      "hasDiscount":false,
+      "hasBadge":true,
+      "badgeContent":"New",
+      "badgeColor":"#51a042",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_2.webp",
+      "category": "Accessories",
+      "sizes": ["28", "30", "32", "34", "36"],
+      "colors": ["Oat Core White Gum"],
+      "material": "Denim",
+      "rating": 6.2,
+      "popularity": 8.5,
+
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Great quality and fit!"
+        },
+        {
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Very comfortable, but runs a little large."
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "ow emb skate hoodie",
+      "description": "ow emb skate hoodie Bordeaux long sleeves hoodie featuring tonal off-White logo at front. Kangaroo pocket at front. Red laces. Elasticized cuffs and hem.",
+      "price": 49.99,
+      "oldPrice": 100,
+      "hasDiscount":true,
+      "hasBadge":true,
+      "badgeContent":"Sale",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_3.png",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Gray", "Navy"],
+      "material": "Fleece",
+      "rating": 5.8,
+      "popularity": 5.7,
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Great quality and fit!"
+        },
+        {
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Very comfortable, but runs a little large."
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "name": "Beams Boy Bow Long Sleeve Shirt",
+      "description": "BEAMS BOY puts a playful spin on a classic with this long-sleeve shirt. Cut from crisp cotton, it’s detailed with ruched sleeves, frilled cuffs, and a dainty waist tie—blending vintage femininity with everyday wearability. Button it up or keep it casual; either way, it’s an effortless statement piece.",
+      "price": 69.99,
+      "oldPrice": 100,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":" %",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_4.webp",
+      "category": "Women",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Gray", "Navy"],
+      "material": "Fleece",
+      "rating": 6.8,
+      "popularity": 5.5,
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Great quality and fit!"
+        },
+        {
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Very comfortable, but runs a little large."
+        }
+      ]
+    },
+    {
+      "id": "1005",
+      "name": "Nike Solo T-shirt",
+      "description": "Nike honours the year the iconic Swoosh was officially trademarked with its latest collection, including this Solo T-shirt. It’s cut from premium cotton and offers a roomy fit, finished off with custom logo branding on the chest and back",
+      "price": 55,
+      "oldPrice": 100,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":" %",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_5.webp",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black & Malachite"],
+      "material": "100% Cotton",
+      "rating": 7.7,
+      "popularity": 2.7,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "Pawa Speed Sports Doggo Knit Sweater",
+      "description": "Pawa Speed Sports℗ started as a dream between friends during lockdown, inspired by a shared passion for ‘90s Japanese streetwear, skateboarding and car culture. Today, this London-born streetwear brand continues to pay homage to the past while it races forward into the future.",
+      "price": 199.99,
+      "oldPrice": 260,
+      "hasDiscount":true,
+      "hasBadge":true,
+      "badgeContent":"-30%",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_6.png",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Cream"],
+      "material": "100% Cotton",
+      "rating": 9.2,
+      "popularity": 3.7,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "name": "Off-White Silverstone Sunglasses",
+      "description": "Designed for the modern individual, the Off-White Silverstone Sunglasses boast a sleek, minimal frame with a distinctive bold aesthetic. Crafted for both style and function, these sunglasses offer superior UV protection while exuding Off-White’s signature luxury streetwear vibe.",
+      "price": 279,
+      "oldPrice": 290,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":" %",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_7.webp",
+      "category": "Accessories",
+      "sizes": ["28", "30", "32", "34", "36"],
+      "colors": ["Havana & Camel"],
+      "material": "100% UVA Protection",
+      "rating": 6.7,
+      "popularity": 8.7,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "Girls of Dust Reactor Jacket",
+      "description": "Girls of Dust puts a fresh spin on the classic liner jacket with this cropped, laid-back version. Made in Portugal from sturdy Armor cotton, it’s finished with roomy pockets, a ribbed texture, and an adjustable drawstring waist. Military roots, reworked for today—easy, timeless, and built to last.",
+      "price": 105,
+      "oldPrice": 120,
+      "hasDiscount":false,
+      "hasBadge":true,
+      "badgeContent":"New",
+      "badgeColor":"#51a042",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_8.png",
+      "category": "Women",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black , pink"],
+      "material": "100% Cotton",
+      "rating": 5.2,
+      "popularity": 4.7,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1009",
+      "name": "Cole Buxton Balearic Hoody",
+      "description": "Sitting itself at the top of the British streetwear game, this Cole Buxton Hoodie is cut from a 420gsm cotton fleece. Undergoing a vintage wash for a soft touch and distinct colour, a new Balearic inspired graphic sits on the chest and reverse.",
+      "price": 220,
+      "oldPrice": 250,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":" %",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_9.webp",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Navy & Yellow"],
+      "material": "100% Cotton",
+      "rating": 7.5,
+      "popularity": 7.74,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1010",
+      "name": "Le Specs Bizarro Sunglasses",
+      "description": "Channeling early 2000s minimalism, the Bizarro sunglasses from Le Specs are sleek, sophisticated, and effortlessly cool. Their delicate metal frames feature a signature flag stripe on the temples, while the shatterproof, scratch-resistant lenses ensure crystal-clear vision all day.",
+      "price": 79.99,
+      "oldPrice": 100,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":" %",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_10.png",
+      "category": "Accessories",
+      "sizes": "Lens Width 56mm / Bridge 19mm / Temple Width 145mm",
+      "colors": ["Gold"],
+      "material": "Metal Frames",
+      "rating": 7.65,
+      "popularity": 5.65,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1011",
+      "name": "Carhartt WIP Hooded Eldon Sweat Jacket",
+      "description": "Rooted in Carhartt WIP’s heritage of crafting durable workwear, the Hooded Eldon Sweat Jacket combines utility and modern streetwear style. Perfect for layering on chilly days, it features a soft fleece lining and offers a relaxed fit - ideal for casual outings or daily wear.",
+      "price": 259.99,
+      "oldPrice": 300,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"Sale",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_11.png",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Dusty Hamilton Brown"],
+      "material": "100% Cotton",
+      "rating": 5.77,
+      "popularity": 6.57,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1012",
+      "name": "Baracuta G9 Original Harrington Jacket",
+      "description": "As functional as it is a retro style icon, Baracuta's G9 Harrington jacket is constructed with a water repellent shell, complete with an umbrella-style yoke and high buttoned collar for extra weather protection. This green version is lined traditionally with moisture-wicking Coolmax® polycotton in a bright red Fraser tartan print.",
+      "price": 310,
+      "oldPrice": 350,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_12.png",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Racing Green"],
+      "material": "50% Cotton, 50% Polyester",
+      "rating": 6.47,
+      "popularity": 6.45,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1013",
+      "name": "The North Face Tek Approach Jacket",
+      "description": "Accompanying you in the outdoors, this The North Face Jacket is designed with WindWall™ fabric that stops the wind from getting in. Featuring a zipped sleeve pocket for storing the essentials, a signature logo sits on the chest.",
+      "price": 145,
+      "oldPrice": 160,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_13.png",
+      "category": "Men",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": ["Tnf Black"],
+      "material": "91% Recycled Polyester",
+      "rating": 7.46,
+      "popularity": 7.45,
+      "reviews": [
+        {
+          "user": "Jessica Wilson",
+          "rating": 5,
+          "comment": "Beautiful dress, just like the picture!"
+        },
+        {
+          "user": "Ashley Garcia",
+          "rating": 4,
+          "comment": "Runs a little small, but the fabric is lovely."
+        }
+      ]
+    },
+    {
+      "id": "1014",
+      "name": "Carhartt WIP Parker Tote Bag",
+      "description": "Perfect for the commute, this Carhartt WIP Tote Bag is crafted using heavyweight dearborn canvas. Promising durability all day long, a slip pocket on the outside is stitched with a woven Square Label.",
+      "price": 110,
+      "oldPrice": 120,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_14.png",
+      "category": "Accessories",
+      "sizes": ["H37cm x W53cm x D17cm"],
+      "colors": ["Black"],
+      "material": "100% Cotton",
+      "rating": 7.457,
+      "popularity": 6.547,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1015",
+      "name": "Carhartt WIP Michigan Coat",
+      "description": "The Carhartt WIP Michigan Coat reimagines the classic chore coat in durable 12 oz Dearborn Canvas, which softens with wear. Unlined for versatility, it features utilitarian patch pockets, a tactile corduroy collar, and triple-stitched seams for lasting durability—a rugged essential that only gets better with time.",
+      "price": 220,
+      "oldPrice": 260,
+      "hasDiscount":true,
+      "hasBadge":true,
+      "badgeContent":"-20%",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_15.png",
+      "category": "Men",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Silver Pine Stone Canvas"],
+      "material": "100% Organic Cotton",
+      "rating": 5.465,
+      "popularity": 6.5674,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1016",
+      "name": "House Of Sunny Chunky Rib Top",
+      "description": "Serving noughties nostalgia, this House of Sunny chunky rib top plays with texture and fashion-forward style. Designed with an asymmetrical shape, this exquisite piece features a wide folded bardot neck and flared sleeves, delivering a chic, minimalist style.",
+      "price": 120,
+      "oldPrice": 130,
+      "hasDiscount":false,
+      "hasBadge":true,
+      "badgeContent":"New",
+      "badgeColor":"#51a042",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_16.png",
+      "category": "Women",
+      "sizes": ["Large ", "Medium"],
+      "colors": ["Black"],
+      "material": "100% Cotton",
+      "rating": 6.3457,
+      "popularity": 7.234,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1017",
+      "name": "Osprey Gear Tote - 28L",
+      "description": "Designed to store your essentials in, this Osprey Tote is made using a durable and recycled nylon. Featuring a 28L main compartment and interior pocket, inner fastening loops and compression straps secure the bag.",
+      "price": 59.99,
+      "oldPrice": 100,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_17.png",
+      "category": "Accessories",
+      "sizes": ["H45cm x W72cm x D26cm"],
+      "colors": ["Euphoria Purple & Purple Ink"],
+      "material": "100% Recycled Nylon",
+      "rating": 4.758,
+      "popularity": 2.467,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1018",
+      "name": "Le Specs No Biggie Sunglasses",
+      "description": "Le Specs is known for blending retro and contemporary styles, often featuring unique silhouettes and innovative materials. The No Biggie sunglasses put a modern twist on a classic 1950s rectangular shape, offering effortless styling with their transparent, lightweight frames and the brand’s signature metal hardware at the temples.",
+      "price": 65,
+      "oldPrice": 100,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_18.png",
+      "category": "Accessories",
+      "sizes": "Lens Width 56mm / Bridge 19mm / Temple Width 145mm",
+      "colors": ["Pewter"],
+      "material": "Metal Frames",
+      "rating": 3.758,
+      "popularity": 7.478,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+
+    {
+      "id": "1019",
+      "name": "House Of Sunny Check Collarless Blazer Jacket",
+      "description": "House of Sunny redefines modern fashion with its noughties-inspired designs, utilising bold colours and unwavering dedication to standout style. This collarless blazer jacket makes all the stops, tailored to perfection, it’s decked out in a vibrant checked design with a slim silhouette and padded shoulders. The double-breasted front and flap pockets add a touch of sophistication, while the bold hues ensure you’ll be turning heads wherever you go.",
+      "price": 115,
+      "oldPrice": 130,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_19.png",
+      "category": "Women",
+      "sizes": ["Medium"],
+      "colors": ["purple"],
+      "material": "100% Cotton",
+      "rating": 5.734,
+      "popularity": 6.457,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1020",
+      "name": "Represent Subway Jumpsuit",
+      "description": "Represent is the brand taking British streetwear to new heights. The Subway Jumpsuit has a technical look and feel, cut from nylon with an adjustable waist. Plus, with a plunging neckline it’s ideal for layering over your favourite tee.",
+      "price": 135,
+      "oldPrice": 150,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_20.png",
+      "category": "Women",
+      "sizes": ["Large ", "Medium" , "small"],
+      "colors": ["Black"],
+      "material": "100% Cotton",
+      "rating": 4.57,
+      "popularity": 5.677,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    },
+    {
+      "id": "1021",
+      "name": "adidas x SFTM Superstar 82 Sneaker",
+      "description": "adidas and Song For The Mute once again join forces to breathe life into the Superstar 82 sneaker. Leather and suede panels form the uppers, with alternating panels that offer variety in tone and texture. Alongside the SFTM-005 tab and co-branded tongue label, these sneakers feature additional eyelets to extend and accent the signature shell toe at the front. Suede Leather Uppers, Shell Toe Detail, Rubber Soles, Leather 3 Stripes, Lace Up Closure",
+      "price": 109.99,
+      "oldPrice": 120,
+      "hasDiscount":false,
+      "hasBadge":false,
+      "badgeContent":"50% off",
+      "badgeColor":"rgb(219, 22, 22)",
+      "currency": "USD",
+      "image": "./assets/imgs/products/product_21.png",
+      "category": "Accessories",
+      "sizes": ["28", "30", "32", "34", "36"],
+      "colors": ["Off White & Core Black"],
+      "material": "Leather 3 Stripes",
+      "rating": 8.07,
+      "popularity": 5.27,
+      "reviews": [
+        {
+          "user": "Kevin Rodriguez",
+          "rating": 5,
+          "comment": "Excellent quality, worth the price."
+        },
+        {
+          "user": "Amanda Martinez",
+          "rating": 4,
+          "comment": "Stylish and fits well."
+        }
+      ]
+    }
+  ],
+  "categories": ["Men", "Women", "Accessories"],
+  "siteSettings": {
+    "currency": "USD",
+    "language": "en-US"
+  }
+}
