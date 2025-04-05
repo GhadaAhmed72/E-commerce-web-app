@@ -32,12 +32,27 @@ console.log(darkModeButton)
     }
 }
 applyTheme();
-////////////////////
+//================================================
+// welcome user
+
+const userNameSpan = document.querySelector(".user-name");
+
+  const currentUserEmail = window.sessionStorage.getItem("current_user_email");
+
+  if (currentUserEmail) {
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const currentUser = users.find(user => user.email === currentUserEmail);
+
+    if (currentUser) {
+      userNameSpan.textContent = currentUser.name; 
+    }
+  }
+
 /////////////////////adddto cart
 var cartTable = document.getElementById("cart-items");
 var fPrice = document.querySelector("#finalPrice");
 var users = JSON.parse(localStorage.getItem("users"));//get users from local storage
-var currentUserEmail = sessionStorage.getItem("current_user_email");
 var user = users.find(user => user.email === currentUserEmail);
 document.addEventListener("DOMContentLoaded", function () {
   
