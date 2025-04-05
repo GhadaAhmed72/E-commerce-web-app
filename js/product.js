@@ -33,6 +33,23 @@ function applyTheme(){
     }
 }
 applyTheme();
+// ================================================
+// welcome user
+
+const userNameSpan = document.querySelector(".user-name");
+
+  const currentUserEmail = window.sessionStorage.getItem("current_user_email");
+
+  if (currentUserEmail) {
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const currentUser = users.find(user => user.email === currentUserEmail);
+
+    if (currentUser) {
+      userNameSpan.textContent = currentUser.name; 
+    }
+  }
+
 /////////////////////////////////////
 ///get items from local
 var urlParams = new URLSearchParams(window.location.search);
