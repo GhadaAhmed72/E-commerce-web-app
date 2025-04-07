@@ -98,7 +98,9 @@ function renderProducts(products) {
                                         <div class="favorite"></div>
                                         ${product.hasBadge ? `<div class="product-badge" style="background-color: ${product.badgeColor};"><span>${product.badgeContent}</span></div>` : ''}
                                         <div class="product-info">
-                                            <h6 class="product-name">${product.name}</h6>
+                       <h6 class="product-name"><a href="#">${product.name}</a></h6>
+
+                                            // <h6 class="product-name">${product.name}</h6>
                                             <div class="product-price">$ ${product.price}${product.hasBadge ? `<span>$ ${product.oldPrice}</span>` : ''}</div>
                                         </div>
                                     </div>
