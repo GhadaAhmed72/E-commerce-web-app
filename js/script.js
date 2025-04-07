@@ -45,7 +45,7 @@ function startCountDown(targetDate) {
     var interval = setInterval(updateTime, 1000);
   }
   
-  const countdownDate = new Date("2025-04-07T00:00:00").getTime();
+  const countdownDate = new Date("2025-04-12T00:00:00").getTime();
   startCountDown(countdownDate);
   
   
