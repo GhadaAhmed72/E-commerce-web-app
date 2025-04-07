@@ -40,6 +40,11 @@
     max-width: 100%;
   }
   
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 
 .navbar-brand{
     font-size: 2rem;
