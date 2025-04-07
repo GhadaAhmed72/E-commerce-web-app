@@ -26,28 +26,26 @@
 }
 
 
-*{
-    padding: 0;
+* {
     margin: 0;
-    font-family: 'Poppins', sans-serif ;
+    padding: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-
-}
-.website-container {
+  }
+  
+  .website-container {
     width: 100%;
     max-width: 100%;
+  }
+  
+  nav, .navbar {
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .carousel-inner img {
     max-width: 100%;
     height: auto;
   }
-  nav {
-    width: 100%;
-  }
-  
   
 
 .navbar-brand{
