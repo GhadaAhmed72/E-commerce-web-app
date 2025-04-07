@@ -46,32 +46,59 @@ body,html
     overflow-x: hidden;
     overflow-y: auto;
 	font-family: 'Poppins', sans-serif;
-    background-image: url(../assets/imgs/website/e-comm_bg.jpg);
-
 }
-.website-container.dark html, 
+/* .website-container.dark html, 
 .website-container.dark body {
     background-color: var(--main-color-dark);
-}
+} */
 .website-container {
     width: 100vw; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
     display: flex; /* Optional: For centering child elements */
     justify-content: center; /* Optional: Horizontal centering */
     align-items: center; /* Optional: Vertical centering */
+    background-image: url(/assets/imgs/website/e-comm_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.website-container::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    z-index: 1;
+    /* opacity: var(--main-color-dark); */
 }
 
-.website-container.dark html{
+
+
+
+.website-container.dark::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    z-index: 1;
+    /* opacity: var(--main-color-dark); */
+}
+/* .website-container.dark html{
     background-color: var(--main-color-dark);
 }
 
 .website-container.dark{
     background-color: var(--main-color-dark);
-}
-
+} */
+/* 
 .website-container.dark .container{
     background-color: var(--main-color-dark);
-}
+} */
 
 .signup-page-container {
     width: 100%;
@@ -82,6 +109,11 @@ body,html
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 22;
 }
 .website-container.dark .signup-page-container{
     background-color: var(--main-color-dark);
