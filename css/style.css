@@ -25,6 +25,7 @@
     --secondary-text-color-5-dark: #0f0f0f;
 }
 
+
 *{
     padding: 0;
     margin: 0;
@@ -34,6 +35,11 @@
     -moz-box-sizing: border-box;
 
 }
+.website-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  
 
 .navbar-brand{
     font-size: 2rem;
@@ -347,7 +353,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px auto; 
+    margin: 50px auto; 
     width: 100%;
 }
 .inner-container .deal h2{
@@ -355,6 +361,15 @@ a{
  margin-top: 100px;
 }
 
+@media ( min-width: 769px) {
+
+    .countdown{
+        width: 70%;
+        flex-wrap: nowrap;
+        margin-left: 25%;
+    }
+    
+}
 @media (max-width: 576px) {
     .deal-img img{
         width: 70%;
@@ -424,7 +439,7 @@ a{
 }
 
 .expired{
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 50px;
      color: var(--secondary-color);
 }
@@ -973,11 +988,22 @@ footer a:hover , footer i:hover{
 }
 .website-container .products-section-container  .products-container .product-item .product .product-info .product-name {
     margin: 10px 0;
-    color: var(--secondary-text-color-2);
-    font-size: 0.75rem;
 }
 
-.website-container.dark .products-section-container  .products-container .product-item .product .product-info .product-name  {
+.website-container .products-section-container  .products-container .product-item .product .product-info .product-name a {
+    color: var(--secondary-text-color-2);
+    line-height: 1.2;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+.website-container.dark .products-section-container  .products-container .product-item .product .product-info .product-name a {
+    color: var(--secondary-text-color-2-dark);
+}
+
+.website-container .products-section-container  .products-container .product-item .product .product-info .product-name:hover a {
+    color: var(--secondary-text-color-2-hover);
+}
+.website-container.dark .products-section-container  .products-container .product-item .product .product-info .product-name:hover a {
     color: var(--secondary-text-color-2-hover-dark);
 }
 .website-container .products-section-container  .products-container .product-item .product .product-info .product-price {
