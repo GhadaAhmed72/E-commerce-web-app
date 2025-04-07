@@ -474,20 +474,12 @@ footer a:hover , footer i:hover{
     margin: 10px 0;
 }
 
-.website-container .shop-page-container  .products-container .product-item .product .product-info .product-name a {
+.website-container .shop-page-container  .products-container .product-item .product .product-info .product-name {
+    margin: 10px 0;
     color: var(--secondary-text-color-2);
-    line-height: 1.2;
     font-size: 0.75rem;
-    text-decoration: none;
 }
-.website-container.dark .shop-page-container  .products-container .product-item .product .product-info .product-name a {
-    color: var(--secondary-text-color-2-dark);
-}
-
-.website-container .shop-page-container  .products-container .product-item .product .product-info .product-name:hover a {
-    color: var(--secondary-text-color-2-hover);
-}
-.website-container.dark .shop-page-container  .products-container .product-item .product .product-info .product-name:hover a {
+.website-container.dark .shop-page-container  .products-container .product-item .product .product-info .product-name {
     color: var(--secondary-text-color-2-hover-dark);
 }
 .website-container .shop-page-container  .products-container .product-item .product .product-info .product-price {
