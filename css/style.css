@@ -44,6 +44,10 @@
     max-width: 100%;
     height: auto;
   }
+  nav {
+    width: 100%;
+  }
+  
   
 
 .navbar-brand{
