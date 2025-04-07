@@ -120,6 +120,7 @@ width: 50%;
 .product-detils-rate{
     display: flex;
 }
+
 @media (max-width: 768px) {
     .productItemContainer {
         flex-direction: column;  
@@ -147,10 +148,6 @@ width: 50%;
         font-size: 16px;
     }
 
-    .product-icon-car {
-        font-size: 18px;
-        padding: 10px;
-    }
 
     .left-nav {
         flex-wrap: wrap;
@@ -169,6 +166,7 @@ width: 50%;
         padding: 10px 20px;
         margin-top: 20px;
     }
+    
 }
 
 
@@ -253,3 +251,83 @@ footer{
     background-color: rgb(176, 175, 175);
 }
   
+@media (max-width: 558px) {
+    .product-icon-car {
+      width: 80%;  
+      margin: auto; 
+      font-size: 12px; 
+      padding: 10px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-icon-car {
+      width: 80%;
+      margin: auto;  
+      font-size: 10px; 
+      padding: 10px;  
+    }
+  }
+
+  @media (max-width: 768px) {
+    .product-icon-car {
+        width: 70% !important;  /* Ensure the width is smaller and takes priority */
+        margin: auto;
+        font-size: 14px;  /* Adjust the font size */
+        padding: 12px;  /* Adjust padding */
+    }
+}
+
+/* Base styles for .product-icon-car */
+/* .product-icon-car {
+    text-align: center;
+    margin-top: 40px;
+    background-color: var(--secondary-color); 
+    padding: 13px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* 
+.product-icon-car:hover {
+    background-color: var(--secondar-color-hover);
+} */
+
+/* Small screens (558px and below) */
+@media (max-width: 558px) {
+    .product-icon-car {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+/* Extra small screens (480px and below) */
+@media (max-width: 480px) {
+    .product-icon-car {
+        font-size: 10px;
+    }
+}
+
+/* Medium screens (768px and below) */
+@media (max-width: 768px) {
+    .product-icon-car {
+        width: 50%;
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+@media (min-width: 769px) {
+    .product-icon-car {
+        width: 90%;  
+        margin: auto;
+        font-size: 18px;  
+        padding: 15px; 
+    }
+}
+
+
