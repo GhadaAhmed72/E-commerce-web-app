@@ -57,18 +57,20 @@ function renderProducts(products) {
             productCard.classList.add("product-card");
             productCard.innerHTML = `
                                 <div class="product-item product-${product.id} ">
-                                    <div class="product discount product-filter">
-                                        <div class="product-image">
-                                            <img src="${product.image}" alt="product${product.id}">
+                                    <a href="product.html?id=${product.id}">
+                                        <div class="product discount product-filter">
+                                            <div class="product-image">
+                                                <img src="${product.image}" alt="product${product.id}">
+                                            </div>
+                                            <div class="favorite"></div>
+                                            ${product.hasBadge ? `<div class="product-badge" style="background-color: ${product.badgeColor};"><span>${product.badgeContent}</span></div>` : ''}
+                                            <div class="product-info">
+                                                <h6 class="product-name">${product.name}</h6>
+                                                <div class="product-price">$ ${product.price}${product.hasBadge ? `<span>$ ${product.oldPrice}</span>` : ''}</div>
+                                            </div>
                                         </div>
-                                        <div class="favorite"></div>
-                                        ${product.hasBadge ? `<div class="product-badge" style="background-color: ${product.badgeColor};"><span>${product.badgeContent}</span></div>` : ''}
-                                        <div class="product-info">
-                                            <h6 class="product-name"><a href="product.html?id=${product.id}">${product.name}</a></h6>
-                                            <div class="product-price">$ ${product.price}${product.hasBadge ? `<span>$ ${product.oldPrice}</span>` : ''}</div>
-                                        </div>
-                                    </div>
-                                    <button class="add-to-cart-button" data-id="${product.id}">add to cart</button>
+                                        <button class="add-to-cart-button" data-id="${product.id}">add to cart</button>
+                                    </a>
                                 </div>`;
             productsContainer.appendChild(productCard);
         })
@@ -159,6 +161,8 @@ searchButton.addEventListener("click", function() {
 var addToCartButtons = document.querySelectorAll(".add-to-cart-button");
 addToCartButtons.forEach(button => {
     button.addEventListener("click", function () {
+        event.preventDefault();
+        event.stopPropagation();
         if (!window.localStorage.getItem("users")) return;
         if (!window.sessionStorage.getItem("current_user_email")) return;
 
@@ -262,6 +266,8 @@ updateCartNotification();
 
 addToCartButtons.forEach(button => {
     button.addEventListener("click", function() {
+        event.preventDefault();
+        event.stopPropagation();
         if (!window.localStorage.getItem("users") || !window.sessionStorage.getItem("current_user_email")) {
             console.log("Add to cart blocked: No signed-in user");
             return;
